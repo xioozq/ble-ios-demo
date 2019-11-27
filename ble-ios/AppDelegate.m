@@ -2,18 +2,18 @@
 //  AppDelegate.m
 //  ble-ios
 //
-//  Created by 二两肉包 on 2019/11/26.
-//  Copyright © 2019 xioozq. All rights reserved.
+//  Created by 肖子琦 on 2019/11/26.
+//  Copyright © 2019 yunke. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

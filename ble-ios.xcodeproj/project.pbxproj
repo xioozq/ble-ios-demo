@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		75592286238D6EA600ABBEC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75592285238D6EA600ABBEC5 /* AppDelegate.m */; };
 		75592289238D6EA600ABBEC5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75592288238D6EA600ABBEC5 /* SceneDelegate.m */; };
-		7559228C238D6EA600ABBEC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559228B238D6EA600ABBEC5 /* ViewController.m */; };
+		7559228C238D6EA600ABBEC5 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559228B238D6EA600ABBEC5 /* PeripheralViewController.m */; };
 		7559228F238D6EA600ABBEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7559228D238D6EA600ABBEC5 /* Main.storyboard */; };
 		75592291238D6EA700ABBEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75592290238D6EA700ABBEC5 /* Assets.xcassets */; };
 		75592294238D6EA700ABBEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75592292238D6EA700ABBEC5 /* LaunchScreen.storyboard */; };
 		75592297238D6EA700ABBEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75592296238D6EA700ABBEC5 /* main.m */; };
+		755922A4238D753E00ABBEC5 /* YKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922A3238D753E00ABBEC5 /* YKButton.m */; };
+		755922AB238D774300ABBEC5 /* YKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922AA238D774300ABBEC5 /* YKLabel.m */; };
+		755922AE238D782800ABBEC5 /* UIColor+YKExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922AD238D782800ABBEC5 /* UIColor+YKExt.m */; };
+		755922B2238D7AE200ABBEC5 /* YKNextRunloopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922B0238D7AE200ABBEC5 /* YKNextRunloopRunner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		755922B5238D7E5500ABBEC5 /* UIImageView+YKExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922B4238D7E5500ABBEC5 /* UIImageView+YKExt.m */; };
+		755922B8238D807500ABBEC5 /* UIView+YKLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922B7238D807500ABBEC5 /* UIView+YKLayout.m */; };
+		755922BB238D830F00ABBEC5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755922BA238D830F00ABBEC5 /* CoreBluetooth.framework */; };
+		755922BE238E700D00ABBEC5 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755922BD238E700D00ABBEC5 /* CentralViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +30,29 @@
 		75592285238D6EA600ABBEC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75592287238D6EA600ABBEC5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		75592288238D6EA600ABBEC5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7559228A238D6EA600ABBEC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7559228B238D6EA600ABBEC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7559228A238D6EA600ABBEC5 /* PeripheralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		7559228B238D6EA600ABBEC5 /* PeripheralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
 		7559228E238D6EA600ABBEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75592290238D6EA700ABBEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75592293238D6EA700ABBEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75592295238D6EA700ABBEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75592296238D6EA700ABBEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		755922A2238D753E00ABBEC5 /* YKButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKButton.h; sourceTree = "<group>"; };
+		755922A3238D753E00ABBEC5 /* YKButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKButton.m; sourceTree = "<group>"; };
+		755922A9238D774300ABBEC5 /* YKLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKLabel.h; sourceTree = "<group>"; };
+		755922AA238D774300ABBEC5 /* YKLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLabel.m; sourceTree = "<group>"; };
+		755922AC238D782800ABBEC5 /* UIColor+YKExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YKExt.h"; sourceTree = "<group>"; };
+		755922AD238D782800ABBEC5 /* UIColor+YKExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YKExt.m"; sourceTree = "<group>"; };
+		755922AF238D79EC00ABBEC5 /* YKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPrefixHeader.pch; sourceTree = "<group>"; };
+		755922B0238D7AE200ABBEC5 /* YKNextRunloopRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNextRunloopRunner.m; sourceTree = "<group>"; };
+		755922B1238D7AE200ABBEC5 /* YKNextRunloopRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNextRunloopRunner.h; sourceTree = "<group>"; };
+		755922B3238D7E5500ABBEC5 /* UIImageView+YKExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YKExt.h"; sourceTree = "<group>"; };
+		755922B4238D7E5500ABBEC5 /* UIImageView+YKExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YKExt.m"; sourceTree = "<group>"; };
+		755922B6238D807500ABBEC5 /* UIView+YKLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YKLayout.h"; sourceTree = "<group>"; };
+		755922B7238D807500ABBEC5 /* UIView+YKLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YKLayout.m"; sourceTree = "<group>"; };
+		755922BA238D830F00ABBEC5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		755922BC238E700D00ABBEC5 /* CentralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		755922BD238E700D00ABBEC5 /* CentralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755922BB238D830F00ABBEC5 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +72,7 @@
 			children = (
 				75592283238D6EA600ABBEC5 /* ble-ios */,
 				75592282238D6EA600ABBEC5 /* Products */,
+				755922B9238D830E00ABBEC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +87,58 @@
 		75592283238D6EA600ABBEC5 /* ble-ios */ = {
 			isa = PBXGroup;
 			children = (
+				755922A8238D75A600ABBEC5 /* base */,
+				755922A5238D756500ABBEC5 /* feature */,
 				75592284238D6EA600ABBEC5 /* AppDelegate.h */,
 				75592285238D6EA600ABBEC5 /* AppDelegate.m */,
 				75592287238D6EA600ABBEC5 /* SceneDelegate.h */,
 				75592288238D6EA600ABBEC5 /* SceneDelegate.m */,
-				7559228A238D6EA600ABBEC5 /* ViewController.h */,
-				7559228B238D6EA600ABBEC5 /* ViewController.m */,
 				7559228D238D6EA600ABBEC5 /* Main.storyboard */,
 				75592290238D6EA700ABBEC5 /* Assets.xcassets */,
 				75592292238D6EA700ABBEC5 /* LaunchScreen.storyboard */,
 				75592295238D6EA700ABBEC5 /* Info.plist */,
 				75592296238D6EA700ABBEC5 /* main.m */,
+				755922AF238D79EC00ABBEC5 /* YKPrefixHeader.pch */,
 			);
 			path = "ble-ios";
+			sourceTree = "<group>";
+		};
+		755922A5238D756500ABBEC5 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				7559228A238D6EA600ABBEC5 /* PeripheralViewController.h */,
+				7559228B238D6EA600ABBEC5 /* PeripheralViewController.m */,
+				755922BC238E700D00ABBEC5 /* CentralViewController.h */,
+				755922BD238E700D00ABBEC5 /* CentralViewController.m */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		755922A8238D75A600ABBEC5 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				755922B1238D7AE200ABBEC5 /* YKNextRunloopRunner.h */,
+				755922B0238D7AE200ABBEC5 /* YKNextRunloopRunner.m */,
+				755922B6238D807500ABBEC5 /* UIView+YKLayout.h */,
+				755922B7238D807500ABBEC5 /* UIView+YKLayout.m */,
+				755922A2238D753E00ABBEC5 /* YKButton.h */,
+				755922A3238D753E00ABBEC5 /* YKButton.m */,
+				755922A9238D774300ABBEC5 /* YKLabel.h */,
+				755922AA238D774300ABBEC5 /* YKLabel.m */,
+				755922AC238D782800ABBEC5 /* UIColor+YKExt.h */,
+				755922AD238D782800ABBEC5 /* UIColor+YKExt.m */,
+				755922B3238D7E5500ABBEC5 /* UIImageView+YKExt.h */,
+				755922B4238D7E5500ABBEC5 /* UIImageView+YKExt.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		755922B9238D830E00ABBEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755922BA238D830F00ABBEC5 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +168,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = xioozq;
+				ORGANIZATIONNAME = yunke;
 				TargetAttributes = {
 					75592280238D6EA600ABBEC5 = {
 						CreatedOnToolsVersion = 11.0;
@@ -146,10 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7559228C238D6EA600ABBEC5 /* ViewController.m in Sources */,
+				7559228C238D6EA600ABBEC5 /* PeripheralViewController.m in Sources */,
 				75592286238D6EA600ABBEC5 /* AppDelegate.m in Sources */,
+				755922B5238D7E5500ABBEC5 /* UIImageView+YKExt.m in Sources */,
+				755922AB238D774300ABBEC5 /* YKLabel.m in Sources */,
 				75592297238D6EA700ABBEC5 /* main.m in Sources */,
+				755922B2238D7AE200ABBEC5 /* YKNextRunloopRunner.m in Sources */,
 				75592289238D6EA600ABBEC5 /* SceneDelegate.m in Sources */,
+				755922AE238D782800ABBEC5 /* UIColor+YKExt.m in Sources */,
+				755922BE238E700D00ABBEC5 /* CentralViewController.m in Sources */,
+				755922B8238D807500ABBEC5 /* UIView+YKLayout.m in Sources */,
+				755922A4238D753E00ABBEC5 /* YKButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +363,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L29J96K8C8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ble-ios/YKPrefixHeader.pch";
 				INFOPLIST_FILE = "ble-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xioozq.bluetooth.ios.ble-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +382,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L29J96K8C8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ble-ios/YKPrefixHeader.pch";
 				INFOPLIST_FILE = "ble-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xioozq.bluetooth.ios.ble-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
